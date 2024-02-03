@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Poppins&family=Roboto&family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+	<link rel="shortcut icon" href="../assets/img/logoPNG.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/solicitacao.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <title>Solicitação de coleta</title>
+</head>
+<body>
+    <header>
+        <a href="perfilUser.html">X</a>
+    </header>
+    <main>
+        <section class="form-box" >
+            <div class="container">
+                
+                <div class="row">
+                    <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3 form-wizard">
+					
+						<!-- Form Wizard -->
+                    	<form role="form" action="" method="post">
+
+                    		<h3>Formulário de agendamento</h3>
+                    		<p>Preencha as informações</p>
+							
+							<!-- Form progress -->
+                    		<div class="form-wizard-steps form-wizard-tolal-steps-3">
+                    			<div class="form-wizard-progress">
+                    			    <div class="form-wizard-progress-line" data-now-value="12.25" data-number-of-steps="4" style="width: 12.25%;"></div>
+                    			</div>
+								<!-- Step 1 -->
+                    			<div class="form-wizard-step active">
+                    				<div class="form-wizard-step-icon"><i class="bi bi-trash3-fill" aria-hidden="true"></i></div>
+                    				<p>Descrição</p>
+                    			</div>
+								<!-- Step 1 -->
+								
+								<!-- Step 2 -->
+                    			<div class="form-wizard-step">
+                    				<div class="form-wizard-step-icon"><i class="bi bi-box-fill" aria-hidden="true"></i></div>
+                    				<p>Peso</p>
+                    			</div>
+								<!-- Step 2 -->
+								
+								<!-- Step 3 -->
+								<div class="form-wizard-step">
+                    				<div class="form-wizard-step-icon"><i class="bi bi-geo-alt-fill" aria-hidden="true"></i></div>
+                    				<p>Endereço</p>
+                    			</div>
+								<!-- Step 3 -->
+								
+								
+                    		</div>
+							<!-- Form progress -->
+                    		
+							
+							<!-- Form Step 1 -->
+                    		<fieldset>
+
+                    		    <h4>Agendamento:	<span>Passo 1 - 3</span></h4>
+								<div class="form-group">
+                    			    <label>Descrição: <span>*</span></label>
+                                    <input type="text" name="First Name" placeholder="Ex: Sacola de mercado com latinhas." class="form-control ">
+                                </div>
+                                <div class="form-group">
+                    			    <label>Tipo do material: <span>*</span></label>
+                                    <input type="text" name="Last Name" placeholder="Alumínio" class="form-control ">
+                                </div>
+                                <div class="form-group">
+                    			    <label>Tamanho estimado: <span>*</span></label>
+                                    <input type="text" name="Last Name" placeholder="Sacola de mercado" class="form-control ">
+                                </div>
+								
+								<div class="container-fluid">
+								<div class="row form-inline">
+								
+								<div class="form-group col-md-3 col-xs-3">
+									<label>Dia: </label>
+                                    <select class="form-control">
+									  <option>01</option>
+									  <option>02</option>
+									  <option>03</option>
+									  <option>04</option>
+									  <option>05</option>
+									  <option>06</option>
+									  <option>07</option>
+									  <option>09</option>
+									  <option>10</option>
+									  <option>11</option>
+									  <option>12</option>
+									  <option>13</option>
+									  <option>14</option>
+									  <option>15</option>
+									  <option>16</option>
+									  <option>17</option>
+									  <option>18</option>
+									  <option>19</option>
+									  <option>20</option>
+									  <option>21</option>
+									  <option>22</option>
+									  <option>23</option>
+									  <option>24</option>
+									  <option>25</option>
+									  <option>26</option>
+									  <option>27</option>
+									  <option>28</option>
+									  <option>29</option>
+									  <option>30</option>
+									</select>
+								</div>
+								<div class="form-group col-md-3 col-xs-3">
+									<label>Mês: </label>
+                                    <select class="form-control">
+									  <option>Jan</option>
+									  <option>Fev</option>
+									  <option>Mar</option>
+									  <option>Abr</option>
+									  <option>Mai</option>
+									  <option>Jun</option>
+									  <option>Jul</option>
+									  <option>Ago</option>
+									  <option>Set</option>
+									  <option>Out</option>
+									  <option>Nov</option>
+									  <option>Dez</option>
+									</select>
+								</div>
+                                </div>
+								</div>
+                                
+                                <div class="form-wizard-buttons" style="margin-top: 1rem;">
+                                    <button type="button" class="btn btn-next">Próximo</button>
+                                </div>
+                            </fieldset>
+							<!-- Form Step 1 -->
+
+							<!-- Form Step 2 -->
+                            <fieldset>
+
+                                <h4>Peso : <span>Passo 2 - 3</span></h4>
+								
+								<div class="form-group">
+                    			    <label>Descrição do peso: </label>
+                                    <select class="form-control">
+									  <option>Mais leve que um saco de arroz de 5kg</option>
+									  <option>Mais leve que um fogão</option>
+									  <option>Mais leve que uma geladeira</option>
+									  <option>Mais pesado que uma geladeira</option>
+									</select>
+                                </div>
+								
+                                <div class="form-wizard-buttons" style="margin-top: 1rem;">
+                                    <button type="button" class="btn btn-previous">Voltar</button>
+                                    <button type="button" class="btn btn-next">Próximo</button>
+                                </div>
+                            </fieldset>
+							<!-- Form Step 2 -->
+							
+							<!-- Form Step 4 -->
+							<fieldset>
+
+                                <h4>Endereço: <span>Passo 3 - 3</span></h4>
+								<div style="clear:both;"></div>
+								<div class="form-group">
+                    			    <label>CEP: <span>*</span></label>
+                                    <input type="text" name="Bank Name" placeholder="08466-003" class="form-control">
+                                </div>
+                    			
+                                <div class="form-group">
+                    			    <label>Bairro: <span>*</span></label>
+                                    <input type="text" name="Holder Name" placeholder="Bairro" class="form-control ">
+                                </div>
+								<div class="container-fluid">
+								<div class="row form-inline">
+								<div class="form-group col-md-6 col-xs-6">
+									<label>Cidade: <span>*</span></label>
+                                    <input type="text" name="Card Number" placeholder="Cidade" class="form-control ">
+								</div>
+								<div class="form-group col-md-6 col-xs-6">
+									<label>Endereço completo: <span>*</span></label>
+                                    <input type="text" name="CVC" placeholder="Rua 424, 12" class="form-control ">
+								</div>
+								<div class="form-group col-md-6 col-xs-6">
+									<label>Complemento: <span>*</span></label>
+                                    <input type="text" name="CVC" placeholder="Rua sem saída" class="form-control ">
+								</div>
+                                </div>
+								</div>
+								
+                                <div class="form-wizard-buttons" style="margin-top: 1rem;">
+                                    <button type="button" class="btn btn-previous">Voltar</button>
+                                    <button type="submit" class="btn btn-submit">Enviar</button>
+                                </div>
+                            </fieldset>
+							<!-- Form Step 4 -->
+                    	
+                    	</form>
+						<!-- Form Wizard -->
+                    </div>
+                </div>
+                    
+            </div>
+        </section>
+    </main>
+    
+    <script src="assets/js/solicitacao.js"></script>
+</body>
+</html>

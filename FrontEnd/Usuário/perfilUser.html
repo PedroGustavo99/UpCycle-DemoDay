@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="perfilUser.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/perfilUser.css">
+    <link rel="shortcut icon" href="../assets/img/logoPNG.png" type="image/x-icon">
+    <title>Perfil do Usuário</title>
+</head>
+<body>
+    <!--Menu Lateral-->
+    <aside class="sidebar">
+        <div class="wrapper">
+            <div class="sidebar-logo">
+                <div class="image">
+                    <img src="../assets/img/logoPNG.png" alt="">
+                </div>
+                <div class="text-logo">
+                    <h3>UpCycle</h3>
+                </div>
+            </div>
+            <div class="toggle-icon">
+                <i class="bi bi-chevron-left"></i>
+            </div>
+            <ul class="navbar-item" id="navbar-item">
+                <li class="nav-item">
+                    <a href="#" class="nav-link" id="perfil">
+                        <i class="bi bi-person"></i>
+                        <div class="text">
+                            Perfil
+                        </div>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link active" id="home">
+                        <i class="bi bi-house"></i>
+                        <div class="text">
+                            Home
+                        </div>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="solicitacao.html" class="nav-link" id="agendamento">
+                        <i class="bi bi-calendar"></i>
+                        <div class="text">
+                            Agendamento
+                        </div>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="../pagbonificação/bonificacao.html" class="nav-link" id="trocar">
+                        <i class="bi bi-reception-4"></i>
+                        <div class="text">
+                            Trocar pontos
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <div class="bottom-content">
+                <li class="nav-item">
+                    <a href="#" class="nav-link" id="logout">
+                        <i class="bi bi-door-open"></i>
+                        <div class="text">
+                            Sair
+                        </div>
+                    </a>
+                </li>
+            </div>
+        </div>
+    </aside>
+    <aside class="nav-mobile"></aside>
+    <main>
+        <!--Header de perfil-->
+        <div class="top"><div><img class="avatar" src="img/user.jpg" alt="Ash" /></div><p>Júlia Silva</p></div>
+        <!--Pontuação-->
+        <div class="marginMain" id="marginMain">
+             <div class="organize">
+                <div class="container-cards">
+                    <div class="card1">
+                        <div class="icon-card1"><i class="bi bi-wallet"></i></div>
+                        <h2>R$34,00</h2>
+                        <h4>Carteira</h4>
+                        <i class="bi bi-info-circle" id="icon-wallet"></i>
+                    </div>
+                    <div class="card2">
+                        <div class="icon-card2"><i class="bi bi-trash-fill"></i></div>
+                        <h2>21 Descartes</h2>
+                        <h4>9 para alcançar prata</h4>
+                    </div>
+                    <div class="card3">
+                        <div class="icon-card3"><img src="img/iconBlue.png"></div>
+                        <h2>89kg Reciclados</h2>
+                        <h4>Alcance 100kg para um bônus de pontos</h4>
+                    </div>
+                </div>
+                <div class="container2-cards">
+                    <div class="container2-card1">
+                        <div class="divisao-card1">
+                        <div class="text-area-card">    
+                            <div>
+                                <h2>Total arrecadado</h2>
+                                <h3>R$643,50</h3>
+                                <h4>+R$403,25</h4> <p>Nos últimos 6 meses</p>
+                            </div>
+                            <div>
+                                <div class="seeMore"><p>Ver detalhes >></p></div>
+                            </div>
+                        </div>
+                        <div class="graphic">
+                            <h5>Últimos 6 meses <i class="bi bi-caret-down-fill"></i></h5>
+                            <div class="area-graphic">
+                                <div class="column1"></div>
+                                <div class="column2"></div>
+                                <div class="column3"></div>
+                                <div class="column4"></div>
+                                <div class="column5"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-area">
+                        <div class="line"></div>
+                        <p>Melhor que 39.5% dos contribuidores</p>
+                        <div class="progress-line"><div class="progress"></div></div>
+                    </div>
+                </div>
+                    <div class="container2-card2">
+                            <div class="divisao-card1">
+                            <div class="text-area-card" style="width: 40%;">    
+                                <div>
+                                    <h2>Cartão-presente</h2>
+                                    <h2>Spotify <i class="bi bi-spotify" style="color: #1ED760;"></i></h2>
+                                    <h5 style="font-weight: 100;">30 dias de premium</h5>
+                                </div>
+                                <div>
+                                    <div class="seeMore"><p>Ver mais >></p></div>
+                                </div>
+                            </div>
+                            <div class="graphic">
+                                <div class="area-graphic-circle">
+                                    <img src="./img/circle graphic.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="desc-area">
+                           <div>
+                                <h4>Já resgatados</h4>
+                                <h3>8</h3>
+                           </div>
+                           <div>
+                                <h4>Máx. de pontos</h4>
+                                <h3>13650</h3>
+                           </div>
+                           <div>
+                                <h4>Último resgatado</h4>
+                                <h3>03/01/2024</h3>
+                           </div>
+                        </div>
+                    </div>
+
+                    
+
+
+            <div class="espacamento"></div>
+        </div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="assets/js/perfilUser.js"></script>
+    <script src="perfilUser.js"></script>
+
+</body>
+</html>
